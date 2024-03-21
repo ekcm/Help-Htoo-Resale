@@ -33,10 +33,10 @@ def import_dataframes():
 
   return station_df, mall_df
 
-def input_flat_details():
-  address = "780A WOODLANDS CRES"
-  remaining_months = 1138
-  storey = 14
+def input_flat_details(address, remaining_months, storey):
+  # address = "780A WOODLANDS CRES"
+  # remaining_months = 1138
+  # storey = 14
   # address = input("input address here:")
   # remaining_months = int(input("input remaining months here:"))
   # storey = int(input("HDB Flat storey here:"))
@@ -128,7 +128,7 @@ def run_model(sector_code, latitude, longitude, remaining_months, storey, neares
 
 
 @app.get("/")
-def hello():
+def main():
     df = import_dataframes()
     flat_details = input_flat_details()
     sector_code = flat_details[3]
@@ -139,6 +139,26 @@ def hello():
 
     predicted_price_per_sqm = numpy_predicted_price_per_sqm.item()
     return dict(predicted_price_per_sqm=predicted_price_per_sqm)
+
+
+@app.post("/")
+async def handle_data(data: dict):
+    
+    address = data.get("address")
+    remaining_months = int(data.get("remainingMonths"))
+    storey_level = int(data.get("storeyLevel"))
+
+    df = import_dataframes()
+    flat_details = input_flat_details(address, remaining_months, storey_level)
+    # sector_code = flat_details[3]
+
+    distance_details = get_distance_details(df[0], df[1], flat_details[0])
+
+    numpy_predicted_price_per_sqm = run_model(flat_details[3], flat_details[4], flat_details[5], flat_details[1], flat_details[2], distance_details[0], distance_details[1], distance_details[2])
+
+    predicted_price_per_sqm = numpy_predicted_price_per_sqm.item()
+    return dict(predicted_price_per_sqm=predicted_price_per_sqm)
+
 
 
 if __name__ == '__main__':

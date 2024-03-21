@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global background styles */
+body {
+  background: linear-gradient(to right, theme("colors.background-black-1"), theme("colors.background-black-2"));
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.searchInput {
+  width: 60%;
+  height: 2rem;
+  border-radius: 0.25rem;
+}
+
+.searchInput2 {
+  width: 25%;
+  height: 2rem;
+  border-radius: 0.25rem;
+  
+}
+
+.searchButton {
+  @apply w-10 rounded-md mx-4;
+  @apply sm:w-full mx-10;
+    
+  width: 10%;
+  background-color: theme("colors.yellow-1");
+  margin-left: 0.125rem;
+  margin-right: 0rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: theme("colors.yellow-2")
+  }
+}
+
+.searchButton-concurrency {
+  @apply w-10 rounded-md mx-4;
+  @apply sm:w-full mx-10;
+    
+  width: 10%;
+  background-color: theme("colors.blue-1");
+  margin-left: 0.125rem;
+  margin-right: 0rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: theme("colors.blue-2")
+  }
+}
+
+.glassmorphismContainer{
+  background-color: white;
+  border-radius: 0.5rem;
+  margin-top: 0.2rem;
+  min-height: 20rem;
+  height: auto;
+  padding: 1rem;
+}
+
+.resultTable{
+  border-width: 1px;
+  border-color: theme("colors.yellow-1");
+  width: 100%;
+}
+
+.resultTable-concurrency{
+  border-width: 1px;
+  border-color: theme("colors.blue-1");
+  width: 100%;
+}
+
+.resultTable thead{
+  background-color: theme("colors.yellow-1");
+}
+
+.resultTable-concurrency thead{
+  background-color: theme("colors.blue-1");
+}
+
+@media screen and (max-width: 400px) {
+  .glassmorphismContainer {
+    min-height: auto;
+  }
+
+  .resultTable {
+    overflow-x: auto;
+  }
+}
