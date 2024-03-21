@@ -1,0 +1,1492 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='transformed_df_features2' inline='true' name='federated.14npn9y0szy5ho1gxfpn61rqrnxd' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='transformed_df_features2' name='textscan.1kq4cxg08hrcej19b0p6n0ggfvx0'>
+            <connection class='textscan' directory='C:/Users/elija/Documents/GitHub/Help-Htoo-Resale' filename='transformed_df_features2.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1kq4cxg08hrcej19b0p6n0ggfvx0' name='transformed_df_features2.csv' table='[transformed_df_features2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='month' ordinal='0' />
+            <column datatype='string' name='town' ordinal='1' />
+            <column datatype='string' name='flat_type' ordinal='2' />
+            <column datatype='string' name='block' ordinal='3' />
+            <column datatype='string' name='street_name' ordinal='4' />
+            <column datatype='string' name='storey_range' ordinal='5' />
+            <column datatype='real' name='floor_area_sqm' ordinal='6' />
+            <column datatype='string' name='flat_model' ordinal='7' />
+            <column datatype='integer' name='lease_commence_date' ordinal='8' />
+            <column datatype='string' name='remaining_lease' ordinal='9' />
+            <column datatype='real' name='resale_price' ordinal='10' />
+            <column datatype='real' name='adjusted_resale_price' ordinal='11' />
+            <column datatype='integer' name='transaction_year' ordinal='12' />
+            <column datatype='integer' name='transaction_month' ordinal='13' />
+            <column datatype='string' name='region' ordinal='14' />
+            <column datatype='string' name='storey_classification' ordinal='15' />
+            <column datatype='integer' name='storey_coded' ordinal='16' />
+            <column datatype='integer' name='region_coded' ordinal='17' />
+            <column datatype='string' name='address' ordinal='18' />
+            <column datatype='real' name='latitude' ordinal='19' />
+            <column datatype='real' name='longitude' ordinal='20' />
+            <column datatype='string' name='coordinates' ordinal='21' />
+            <column datatype='integer' name='postal_code' ordinal='22' />
+            <column datatype='integer' name='sector_code' ordinal='23' />
+            <column datatype='real' name='distance_from_CBD' ordinal='24' />
+            <column datatype='string' name='nearest_station' ordinal='25' />
+            <column datatype='real' name='nearest_station_distance' ordinal='26' />
+            <column datatype='string' name='nearest_mall' ordinal='27' />
+            <column datatype='real' name='nearest_mall_distance' ordinal='28' />
+            <column datatype='real' name='adjusted_price_per_sqm' ordinal='29' />
+            <column datatype='integer' name='storey_avg' ordinal='30' />
+            <column datatype='integer' name='remaining_months' ordinal='31' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1kq4cxg08hrcej19b0p6n0ggfvx0' name='transformed_df_features2.csv' table='[transformed_df_features2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='month' ordinal='0' />
+            <column datatype='string' name='town' ordinal='1' />
+            <column datatype='string' name='flat_type' ordinal='2' />
+            <column datatype='string' name='block' ordinal='3' />
+            <column datatype='string' name='street_name' ordinal='4' />
+            <column datatype='string' name='storey_range' ordinal='5' />
+            <column datatype='real' name='floor_area_sqm' ordinal='6' />
+            <column datatype='string' name='flat_model' ordinal='7' />
+            <column datatype='integer' name='lease_commence_date' ordinal='8' />
+            <column datatype='string' name='remaining_lease' ordinal='9' />
+            <column datatype='real' name='resale_price' ordinal='10' />
+            <column datatype='real' name='adjusted_resale_price' ordinal='11' />
+            <column datatype='integer' name='transaction_year' ordinal='12' />
+            <column datatype='integer' name='transaction_month' ordinal='13' />
+            <column datatype='string' name='region' ordinal='14' />
+            <column datatype='string' name='storey_classification' ordinal='15' />
+            <column datatype='integer' name='storey_coded' ordinal='16' />
+            <column datatype='integer' name='region_coded' ordinal='17' />
+            <column datatype='string' name='address' ordinal='18' />
+            <column datatype='real' name='latitude' ordinal='19' />
+            <column datatype='real' name='longitude' ordinal='20' />
+            <column datatype='string' name='coordinates' ordinal='21' />
+            <column datatype='integer' name='postal_code' ordinal='22' />
+            <column datatype='integer' name='sector_code' ordinal='23' />
+            <column datatype='real' name='distance_from_CBD' ordinal='24' />
+            <column datatype='string' name='nearest_station' ordinal='25' />
+            <column datatype='real' name='nearest_station_distance' ordinal='26' />
+            <column datatype='string' name='nearest_mall' ordinal='27' />
+            <column datatype='real' name='nearest_mall_distance' ordinal='28' />
+            <column datatype='real' name='adjusted_price_per_sqm' ordinal='29' />
+            <column datatype='integer' name='storey_avg' ordinal='30' />
+            <column datatype='integer' name='remaining_months' ordinal='31' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>month</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[month]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>month</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>town</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[town]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>town</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>flat_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[flat_type]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>flat_type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>block</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[block]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>block</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>street_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[street_name]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>street_name</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>storey_range</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[storey_range]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>storey_range</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>floor_area_sqm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[floor_area_sqm]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>floor_area_sqm</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>flat_model</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[flat_model]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>flat_model</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lease_commence_date</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[lease_commence_date]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>lease_commence_date</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>remaining_lease</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[remaining_lease]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>remaining_lease</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>resale_price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[resale_price]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>resale_price</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>adjusted_resale_price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[adjusted_resale_price]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>adjusted_resale_price</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>transaction_year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[transaction_year]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>transaction_year</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>transaction_month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[transaction_month]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>transaction_month</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[region]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>region</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>storey_classification</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[storey_classification]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>storey_classification</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>storey_coded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[storey_coded]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>storey_coded</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region_coded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[region_coded]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>region_coded</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>address</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[address]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>address</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coordinates</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[coordinates]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>coordinates</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>postal_code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[postal_code]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>postal_code</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sector_code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[sector_code]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>sector_code</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>distance_from_CBD</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[distance_from_CBD]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>distance_from_CBD</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nearest_station</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nearest_station]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>nearest_station</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nearest_station_distance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nearest_station_distance]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>nearest_station_distance</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nearest_mall</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nearest_mall]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>nearest_mall</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nearest_mall_distance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nearest_mall_distance]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>nearest_mall_distance</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>adjusted_price_per_sqm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[adjusted_price_per_sqm]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>adjusted_price_per_sqm</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>storey_avg</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[storey_avg]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>storey_avg</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>remaining_months</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[remaining_months]</local-name>
+            <parent-name>[transformed_df_features2.csv]</parent-name>
+            <remote-alias>remaining_months</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='transformed_df_features2.csv' datatype='table' name='[__tableau_internal_object_id__].[transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5]' role='measure' type='quantitative' />
+      <column caption='Address' datatype='string' name='[address]' role='dimension' type='nominal' />
+      <column caption='Adjusted Price Per Sqm' datatype='real' name='[adjusted_price_per_sqm]' role='measure' type='quantitative' />
+      <column caption='Adjusted Resale Price' datatype='real' name='[adjusted_resale_price]' role='measure' type='quantitative' />
+      <column caption='Block' datatype='string' name='[block]' role='dimension' type='nominal' />
+      <column caption='Coordinates' datatype='string' name='[coordinates]' role='dimension' type='nominal' />
+      <column caption='distance from CBD' datatype='real' name='[distance_from_CBD]' role='measure' type='quantitative' />
+      <column caption='Flat Model' datatype='string' name='[flat_model]' role='dimension' type='nominal' />
+      <column caption='Flat Type' datatype='string' name='[flat_type]' role='dimension' type='nominal' />
+      <column caption='Floor Area Sqm' datatype='real' name='[floor_area_sqm]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column caption='Lease Commence Date' datatype='integer' name='[lease_commence_date]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Month' datatype='string' name='[month]' role='dimension' type='nominal' />
+      <column caption='Nearest Mall' datatype='string' name='[nearest_mall]' role='dimension' type='nominal' />
+      <column caption='Nearest Mall Distance' datatype='real' name='[nearest_mall_distance]' role='measure' type='quantitative' />
+      <column caption='Nearest Station' datatype='string' name='[nearest_station]' role='dimension' type='nominal' />
+      <column caption='Nearest Station Distance' datatype='real' name='[nearest_station_distance]' role='measure' type='quantitative' />
+      <column caption='Postal Code' datatype='integer' name='[postal_code]' role='dimension' type='ordinal' />
+      <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+      <column caption='Region Coded' datatype='integer' name='[region_coded]' role='measure' type='quantitative' />
+      <column caption='Remaining Lease' datatype='string' name='[remaining_lease]' role='dimension' type='nominal' />
+      <column caption='Remaining Months' datatype='integer' name='[remaining_months]' role='measure' type='quantitative' />
+      <column caption='Resale Price' datatype='real' name='[resale_price]' role='measure' type='quantitative' />
+      <column caption='Sector Code' datatype='integer' name='[sector_code]' role='dimension' type='ordinal' />
+      <column caption='Storey Avg' datatype='integer' name='[storey_avg]' role='measure' type='quantitative' />
+      <column caption='Storey Classification' datatype='string' name='[storey_classification]' role='dimension' type='nominal' />
+      <column caption='Storey Coded' datatype='integer' name='[storey_coded]' role='measure' type='quantitative' />
+      <column caption='Storey Range' datatype='string' name='[storey_range]' role='dimension' type='nominal' />
+      <column caption='Street Name' datatype='string' name='[street_name]' role='dimension' type='nominal' />
+      <column caption='Town' datatype='string' name='[town]' role='dimension' type='nominal' />
+      <column caption='Transaction Month' datatype='integer' name='[transaction_month]' role='dimension' type='quantitative' />
+      <column caption='Transaction Year' datatype='integer' name='[transaction_year]' role='dimension' type='quantitative' />
+      <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+      <column-instance column='[sector_code]' derivation='None' name='[none:sector_code:ok]' pivot='key' type='ordinal' />
+      <group hidden='true' name='[Exclusions (Region,Sector Code)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:region:nk]' />
+          <groupfilter function='level-members' level='[none:sector_code:ok]' />
+        </groupfilter>
+      </group>
+      <drill-paths>
+        <drill-path name='Mapping items'>
+          <field>[region]</field>
+          <field>[town]</field>
+          <field>[sector_code]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Sint Maarten (Dutch part)&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='transformed_df_features2.csv' id='transformed_df_features2.csv_C2EFFA80176641759A855090B9490DA5'>
+            <properties context=''>
+              <relation connection='textscan.1kq4cxg08hrcej19b0p6n0ggfvx0' name='transformed_df_features2.csv' table='[transformed_df_features2#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='month' ordinal='0' />
+                  <column datatype='string' name='town' ordinal='1' />
+                  <column datatype='string' name='flat_type' ordinal='2' />
+                  <column datatype='string' name='block' ordinal='3' />
+                  <column datatype='string' name='street_name' ordinal='4' />
+                  <column datatype='string' name='storey_range' ordinal='5' />
+                  <column datatype='real' name='floor_area_sqm' ordinal='6' />
+                  <column datatype='string' name='flat_model' ordinal='7' />
+                  <column datatype='integer' name='lease_commence_date' ordinal='8' />
+                  <column datatype='string' name='remaining_lease' ordinal='9' />
+                  <column datatype='real' name='resale_price' ordinal='10' />
+                  <column datatype='real' name='adjusted_resale_price' ordinal='11' />
+                  <column datatype='integer' name='transaction_year' ordinal='12' />
+                  <column datatype='integer' name='transaction_month' ordinal='13' />
+                  <column datatype='string' name='region' ordinal='14' />
+                  <column datatype='string' name='storey_classification' ordinal='15' />
+                  <column datatype='integer' name='storey_coded' ordinal='16' />
+                  <column datatype='integer' name='region_coded' ordinal='17' />
+                  <column datatype='string' name='address' ordinal='18' />
+                  <column datatype='real' name='latitude' ordinal='19' />
+                  <column datatype='real' name='longitude' ordinal='20' />
+                  <column datatype='string' name='coordinates' ordinal='21' />
+                  <column datatype='integer' name='postal_code' ordinal='22' />
+                  <column datatype='integer' name='sector_code' ordinal='23' />
+                  <column datatype='real' name='distance_from_CBD' ordinal='24' />
+                  <column datatype='string' name='nearest_station' ordinal='25' />
+                  <column datatype='real' name='nearest_station_distance' ordinal='26' />
+                  <column datatype='string' name='nearest_mall' ordinal='27' />
+                  <column datatype='real' name='nearest_mall_distance' ordinal='28' />
+                  <column datatype='real' name='adjusted_price_per_sqm' ordinal='29' />
+                  <column datatype='integer' name='storey_avg' ordinal='30' />
+                  <column datatype='integer' name='remaining_months' ordinal='31' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='1969 - 1999 HDBs built by Sector Code'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='transformed_df_features2' name='federated.14npn9y0szy5ho1gxfpn61rqrnxd' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.14npn9y0szy5ho1gxfpn61rqrnxd'>
+            <column-instance column='[latitude]' derivation='Avg' name='[avg:latitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[longitude]' derivation='Avg' name='[avg:longitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[lease_commence_date]' derivation='Count' name='[cnt:lease_commence_date:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column caption='Lease Commence Date' datatype='integer' name='[lease_commence_date]' role='measure' type='quantitative' />
+            <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column-instance column='[lease_commence_date]' derivation='None' name='[none:lease_commence_date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[sector_code]' derivation='None' name='[none:sector_code:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[town]' derivation='None' name='[none:town:nk]' pivot='key' type='nominal' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+            <column caption='Sector Code' datatype='integer' name='[sector_code]' role='dimension' type='ordinal' />
+            <column caption='Town' datatype='string' name='[town]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:lease_commence_date:qk]' included-values='in-range'>
+            <min>1966</min>
+            <max>1999</max>
+          </filter>
+          <slices>
+            <column>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:lease_commence_date:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:longitude:qk]' field-type='quantitative' max='11589820.457261536' min='11534223.867509075' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:latitude:qk]' field-type='quantitative' max='169927.20737486266' min='132234.60325419201' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size' field='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[cnt:lease_commence_date:qk]' field-type='quantitative' max-size='1' min-size='0' type='rangesize' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:region:nk]' />
+              <size column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[cnt:lease_commence_date:qk]' />
+              <lod column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:town:nk]' />
+              <lod column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:sector_code:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.2869259119033813' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:latitude:qk]</rows>
+        <cols>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:longitude:qk]</cols>
+      </table>
+      <simple-id uuid='{1992CF4C-ED52-4530-9B74-504727DFDAA0}' />
+    </worksheet>
+    <worksheet name='2000 - Present HDBs built by Sector Code '>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='transformed_df_features2' name='federated.14npn9y0szy5ho1gxfpn61rqrnxd' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.14npn9y0szy5ho1gxfpn61rqrnxd'>
+            <column-instance column='[latitude]' derivation='Avg' name='[avg:latitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[longitude]' derivation='Avg' name='[avg:longitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[lease_commence_date]' derivation='Count' name='[cnt:lease_commence_date:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column caption='Lease Commence Date' datatype='integer' name='[lease_commence_date]' role='measure' type='quantitative' />
+            <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column-instance column='[lease_commence_date]' derivation='None' name='[none:lease_commence_date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[sector_code]' derivation='None' name='[none:sector_code:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[town]' derivation='None' name='[none:town:nk]' pivot='key' type='nominal' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+            <column caption='Sector Code' datatype='integer' name='[sector_code]' role='dimension' type='ordinal' />
+            <column caption='Town' datatype='string' name='[town]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:lease_commence_date:qk]' included-values='in-range'>
+            <min>2000</min>
+            <max>2019</max>
+          </filter>
+          <slices>
+            <column>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:lease_commence_date:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:longitude:qk]' field-type='quantitative' max='11589820.457261536' min='11534223.867509075' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:latitude:qk]' field-type='quantitative' max='169927.20737486266' min='132234.60325419201' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size' field='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[cnt:lease_commence_date:qk]' field-type='quantitative' max-size='1' min-size='0' type='rangesize' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:region:nk]' />
+              <size column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[cnt:lease_commence_date:qk]' />
+              <lod column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:town:nk]' />
+              <lod column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:sector_code:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.2869259119033813' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:latitude:qk]</rows>
+        <cols>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:longitude:qk]</cols>
+      </table>
+      <simple-id uuid='{042C32B5-FDD3-4303-82BD-371C2A061887}' />
+    </worksheet>
+    <worksheet name='All HDB Resale by Region'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='transformed_df_features2' name='federated.14npn9y0szy5ho1gxfpn61rqrnxd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.14npn9y0szy5ho1gxfpn61rqrnxd'>
+            <column caption='Address' datatype='string' name='[address]' role='dimension' type='nominal' />
+            <column caption='Adjusted Price Per Sqm' datatype='real' name='[adjusted_price_per_sqm]' role='measure' type='quantitative' />
+            <column-instance column='[adjusted_price_per_sqm]' derivation='Avg' name='[avg:adjusted_price_per_sqm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[address]' derivation='Count' name='[cnt:address:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:region:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[cnt:address:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:region:nk]' />
+              <lod column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:adjusted_price_per_sqm:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[cnt:address:qk]</rows>
+        <cols>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:region:nk]</cols>
+      </table>
+      <simple-id uuid='{3A28A2C0-65E7-42CE-9726-B2C780A87A54}' />
+    </worksheet>
+    <worksheet name='Avg Adjusted Resale Price by Sector Code'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='transformed_df_features2' name='federated.14npn9y0szy5ho1gxfpn61rqrnxd' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.14npn9y0szy5ho1gxfpn61rqrnxd'>
+            <column caption='Adjusted Price Per Sqm' datatype='real' name='[adjusted_price_per_sqm]' role='measure' type='quantitative' />
+            <column-instance column='[adjusted_price_per_sqm]' derivation='Avg' name='[avg:adjusted_price_per_sqm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[latitude]' derivation='Avg' name='[avg:latitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[longitude]' derivation='Avg' name='[avg:longitude:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[sector_code]' derivation='None' name='[none:sector_code:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[town]' derivation='None' name='[none:town:nk]' pivot='key' type='nominal' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+            <column caption='Sector Code' datatype='integer' name='[sector_code]' role='dimension' type='ordinal' />
+            <column caption='Town' datatype='string' name='[town]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:longitude:qk]' field-type='quantitative' max='11588935.162767243' min='11533940.712208547' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:latitude:qk]' field-type='quantitative' max='169562.60451954175' min='137986.84438992638' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size' field='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:adjusted_price_per_sqm:qk]' field-type='quantitative' max-size='1' min-size='0' type='rangesize' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:region:nk]' />
+              <lod column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:town:nk]' />
+              <lod column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:sector_code:ok]' />
+              <size column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:adjusted_price_per_sqm:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2.6193704605102539' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:latitude:qk]</rows>
+        <cols>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:longitude:qk]</cols>
+      </table>
+      <simple-id uuid='{3299E2A7-D87F-468D-97B3-6F14717203E9}' />
+    </worksheet>
+    <worksheet name='Avg Distance from CBD by Sector Code'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='transformed_df_features2' name='federated.14npn9y0szy5ho1gxfpn61rqrnxd' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.14npn9y0szy5ho1gxfpn61rqrnxd'>
+            <column caption='Adjusted Price Per Sqm' datatype='real' name='[adjusted_price_per_sqm]' role='measure' type='quantitative' />
+            <column-instance column='[adjusted_price_per_sqm]' derivation='Avg' name='[avg:adjusted_price_per_sqm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[distance_from_CBD]' derivation='Avg' name='[avg:distance_from_CBD:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[latitude]' derivation='Avg' name='[avg:latitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[longitude]' derivation='Avg' name='[avg:longitude:qk]' pivot='key' type='quantitative' />
+            <column caption='distance from CBD' datatype='real' name='[distance_from_CBD]' role='measure' type='quantitative' />
+            <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column-instance column='[sector_code]' derivation='None' name='[none:sector_code:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[town]' derivation='None' name='[none:town:nk]' pivot='key' type='nominal' />
+            <column caption='Sector Code' datatype='integer' name='[sector_code]' role='dimension' type='ordinal' />
+            <column caption='Town' datatype='string' name='[town]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:longitude:qk]' field-type='quantitative' max='11592106.095719898' min='11527910.648870111' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:latitude:qk]' field-type='quantitative' max='169229.79248176614' min='125707.45459679799' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size' field='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:adjusted_price_per_sqm:qk]' field-type='quantitative' max-size='1' min-size='0' type='rangesize' />
+            <encoding attr='color' field='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:distance_from_CBD:qk]' num-steps='5' palette='orange_blue_diverging_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:distance_from_CBD:qk]' />
+              <size column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:adjusted_price_per_sqm:qk]' />
+              <lod column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:town:nk]' />
+              <lod column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:sector_code:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.9531481266021729' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:latitude:qk]</rows>
+        <cols>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:longitude:qk]</cols>
+      </table>
+      <simple-id uuid='{295F9763-9138-467E-9F85-8C1527D0B1F5}' />
+    </worksheet>
+    <worksheet name='Avg Distance from mall by Sector Code'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='transformed_df_features2' name='federated.14npn9y0szy5ho1gxfpn61rqrnxd' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.14npn9y0szy5ho1gxfpn61rqrnxd'>
+            <column caption='Adjusted Price Per Sqm' datatype='real' name='[adjusted_price_per_sqm]' role='measure' type='quantitative' />
+            <column-instance column='[adjusted_price_per_sqm]' derivation='Avg' name='[avg:adjusted_price_per_sqm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[latitude]' derivation='Avg' name='[avg:latitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[longitude]' derivation='Avg' name='[avg:longitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[nearest_mall_distance]' derivation='Avg' name='[avg:nearest_mall_distance:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column caption='Nearest Mall Distance' datatype='real' name='[nearest_mall_distance]' role='measure' type='quantitative' />
+            <column-instance column='[sector_code]' derivation='None' name='[none:sector_code:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[town]' derivation='None' name='[none:town:nk]' pivot='key' type='nominal' />
+            <column caption='Sector Code' datatype='integer' name='[sector_code]' role='dimension' type='ordinal' />
+            <column caption='Town' datatype='string' name='[town]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:longitude:qk]' field-type='quantitative' max='11592106.095719898' min='11527910.648870111' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:latitude:qk]' field-type='quantitative' max='169229.79248176614' min='125707.45459679799' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size' field='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:adjusted_price_per_sqm:qk]' field-type='quantitative' max-size='1' min-size='0' type='rangesize' />
+            <encoding attr='color' field='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:nearest_mall_distance:qk]' num-steps='5' palette='orange_blue_diverging_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:nearest_mall_distance:qk]' />
+              <size column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:adjusted_price_per_sqm:qk]' />
+              <lod column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:town:nk]' />
+              <lod column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:sector_code:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:latitude:qk]</rows>
+        <cols>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:longitude:qk]</cols>
+      </table>
+      <simple-id uuid='{A69625E4-D60F-4F98-8AB7-1FD8A8C52372}' />
+    </worksheet>
+    <worksheet name='Boxplot by Region'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='transformed_df_features2' name='federated.14npn9y0szy5ho1gxfpn61rqrnxd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.14npn9y0szy5ho1gxfpn61rqrnxd'>
+            <column caption='Adjusted Price Per Sqm' datatype='real' name='[adjusted_price_per_sqm]' role='measure' type='quantitative' />
+            <column-instance column='[adjusted_price_per_sqm]' derivation='Avg' name='[avg:adjusted_price_per_sqm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[sector_code]' derivation='None' name='[none:sector_code:ok]' pivot='key' type='ordinal' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+            <column caption='Sector Code' datatype='integer' name='[sector_code]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:region:nk]' />
+              <lod column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:sector_code:ok]' />
+            </encodings>
+            <reference-line axis-column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:adjusted_price_per_sqm:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:adjusted_price_per_sqm:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:adjusted_price_per_sqm:qk]</rows>
+        <cols>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:region:nk]</cols>
+      </table>
+      <simple-id uuid='{407A4467-ECFC-48D9-B15C-084684A5C5C0}' />
+    </worksheet>
+    <worksheet name='Nearest Station'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='transformed_df_features2' name='federated.14npn9y0szy5ho1gxfpn61rqrnxd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.14npn9y0szy5ho1gxfpn61rqrnxd'>
+            <column caption='Adjusted Price Per Sqm' datatype='real' name='[adjusted_price_per_sqm]' role='measure' type='quantitative' />
+            <column-instance column='[adjusted_price_per_sqm]' derivation='Avg' name='[avg:adjusted_price_per_sqm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[nearest_station_distance]' derivation='Avg' name='[avg:nearest_station_distance:qk]' pivot='key' type='quantitative' />
+            <column caption='Nearest Station Distance' datatype='real' name='[nearest_station_distance]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:adjusted_price_per_sqm:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:nearest_station_distance:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:adjusted_price_per_sqm:qk] + [federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:nearest_station_distance:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{600A29CC-812D-4516-BC38-FE41C71A1DF3}' />
+    </worksheet>
+    <worksheet name='Price per sqm bar'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='transformed_df_features2' name='federated.14npn9y0szy5ho1gxfpn61rqrnxd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.14npn9y0szy5ho1gxfpn61rqrnxd'>
+            <column caption='Address' datatype='string' name='[address]' role='dimension' type='nominal' />
+            <column caption='Adjusted Price Per Sqm' datatype='real' name='[adjusted_price_per_sqm]' role='measure' type='quantitative' />
+            <column-instance column='[adjusted_price_per_sqm]' derivation='Avg' name='[avg:adjusted_price_per_sqm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[address]' derivation='Count' name='[cnt:address:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[sector_code]' derivation='None' name='[none:sector_code:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[town]' derivation='None' name='[none:town:nk]' pivot='key' type='nominal' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+            <column caption='Sector Code' datatype='integer' name='[sector_code]' role='dimension' type='ordinal' />
+            <column caption='Town' datatype='string' name='[town]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[Exclusions (Region,Sector Code)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:region:nk]' />
+                <groupfilter function='level-members' level='[none:sector_code:ok]' />
+              </groupfilter>
+              <groupfilter function='reorder-dimensionality'>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:sector_code:ok]' member='%null%' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:region:nk]' member='&quot;CENTRAL&quot;' />
+                    <groupfilter function='member' level='[none:region:nk]' member='&quot;EAST&quot;' />
+                    <groupfilter function='member' level='[none:region:nk]' member='&quot;NORTH&quot;' />
+                    <groupfilter function='member' level='[none:region:nk]' member='&quot;NORTH-EAST&quot;' />
+                    <groupfilter function='member' level='[none:region:nk]' member='&quot;WEST&quot;' />
+                  </groupfilter>
+                </groupfilter>
+                <order>
+                  <hierarchy name='[none:region:nk]' />
+                  <hierarchy name='[none:sector_code:ok]' />
+                </order>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:sector_code:ok]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:adjusted_price_per_sqm:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[Exclusions (Region,Sector Code)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:region:nk]' />
+              <lod column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:town:nk]' />
+              <lod column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:sector_code:ok]' />
+              <size column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[cnt:address:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:adjusted_price_per_sqm:qk]</rows>
+        <cols>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:sector_code:ok]</cols>
+      </table>
+      <simple-id uuid='{A5372367-6A43-446F-ADBE-38E4E68846E7}' />
+    </worksheet>
+    <worksheet name='Remaining months vs Adjusted price per sqm'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='transformed_df_features2' name='federated.14npn9y0szy5ho1gxfpn61rqrnxd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.14npn9y0szy5ho1gxfpn61rqrnxd'>
+            <column caption='Address' datatype='string' name='[address]' role='dimension' type='nominal' />
+            <column caption='Adjusted Price Per Sqm' datatype='real' name='[adjusted_price_per_sqm]' role='measure' type='quantitative' />
+            <column-instance column='[adjusted_price_per_sqm]' derivation='Avg' name='[avg:adjusted_price_per_sqm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[remaining_months]' derivation='Avg' name='[avg:remaining_months:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[address]' derivation='None' name='[none:address:nk]' pivot='key' type='nominal' />
+            <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+            <column caption='Remaining Months' datatype='integer' name='[remaining_months]' role='measure' type='quantitative' />
+            <column-instance column='[adjusted_price_per_sqm]' derivation='Sum' name='[sum:adjusted_price_per_sqm:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:region:nk]' />
+              <size column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[sum:adjusted_price_per_sqm:qk]' />
+              <lod column='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:address:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:adjusted_price_per_sqm:qk]</rows>
+        <cols>[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:remaining_months:qk]</cols>
+      </table>
+      <simple-id uuid='{FBD322D5-CB32-453B-B4B5-1629A14F08BA}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Boxplot by Region'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:region:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FFF619CE-B32E-4F3F-AFC5-436FB42DBC91}' />
+    </window>
+    <window class='worksheet' name='Avg Adjusted Resale Price by Sector Code'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:adjusted_price_per_sqm:qk]' type='size' />
+            <card pane-specification-id='0' param='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:region:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{499B0D8B-D6E9-41BA-B85B-9D7B1833AF7F}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Avg Distance from CBD by Sector Code'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:distance_from_CBD:qk]' type='color' />
+            <card pane-specification-id='2' param='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:adjusted_price_per_sqm:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8AFD7037-FD79-47B9-83FC-52E4BCE7F60D}' />
+    </window>
+    <window class='worksheet' name='Remaining months vs Adjusted price per sqm'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:region:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[sum:adjusted_price_per_sqm:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{945FF297-FAC3-4C22-B163-0F839C679E83}' />
+    </window>
+    <window class='worksheet' name='Avg Distance from mall by Sector Code'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:adjusted_price_per_sqm:qk]' type='size' />
+            <card pane-specification-id='2' param='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[avg:nearest_mall_distance:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EA55C864-DB75-451E-82AE-6ADC2089DE6B}' />
+    </window>
+    <window class='worksheet' name='1969 - 1999 HDBs built by Sector Code'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:region:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[cnt:lease_commence_date:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C4381201-0AEB-4A5F-A495-F69EA78B6AA7}' />
+    </window>
+    <window class='worksheet' name='2000 - Present HDBs built by Sector Code '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:region:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[cnt:lease_commence_date:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{58F630D6-CADF-4FE5-8E96-C474D18F68CE}' />
+    </window>
+    <window class='worksheet' name='All HDB Resale by Region'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:region:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A6821232-51B7-4585-9995-AF2ACD68CE41}' />
+    </window>
+    <window class='worksheet' name='Price per sqm bar'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[none:region:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.14npn9y0szy5ho1gxfpn61rqrnxd].[cnt:address:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A2E50D7E-66D9-48EC-A779-D6B2825BA21E}' />
+    </window>
+    <window class='worksheet' name='Nearest Station'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{102B3674-7F9B-4160-B456-22E54329E451}' />
+    </window>
+  </windows>
+</workbook>
